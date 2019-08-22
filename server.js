@@ -110,7 +110,7 @@ app.delete("/api/timers", (req, res) => {
 app.get("/molasses", (_, res) => {
   setTimeout(() => {
     res.setHeader('content-type','text/json');
-    res.send(JSON.stringify({ message: "you're gay" }));
+    res.send(JSON.stringify({ message: "Sample Message" }));
     res.end();
   }, 5000);
 });
